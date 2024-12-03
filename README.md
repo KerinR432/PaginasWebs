@@ -1,2 +1,4 @@
 # LenguajeDeMarcas
-aqui va todas las pruebas que hecho a lo largo de lenguaje de Marcas en el curso de DAW
+Es un repositorio para todo relacionado
+con Lenguajes de Marcas 
+de el curso DAW1
