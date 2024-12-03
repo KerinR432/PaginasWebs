@@ -1,19 +1,26 @@
 main{
-    margin: 20px;
+    margin: 5px auto;
     border: 2px solid black;
-    padding: 20px;
+    background-color: cyan;
     overflow: auto;
+    width: 1000px;
+}
+div{
+    float: left;
+    width: 500px;
+    background-color: pink;    
 }
 .Izquierda{
     float: left;
-    background-color: pink;
-    width: 50%;
-    margin-right: 5px;
+    padding: 10px;
+    text-align: justify;
+    padding: 20px;  
 }
 .Derecha{
     float: right;
-    background-color: cyan;
-    width: 50%;
-    margin-left: 5px;
-    border-left: 1px solid black;
+    width: 460px;
+    margin-right: -500px;
+    text-align: justify;
+    padding: 20px;     
+
 }
