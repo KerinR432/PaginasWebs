@@ -1,0 +1,19 @@
+main{
+    margin: 20px;
+    border: 2px solid black;
+    padding: 20px;
+    overflow: auto;
+}
+.Izquierda{
+    float: left;
+    background-color: pink;
+    width: 50%;
+    margin-right: 5px;
+}
+.Derecha{
+    float: right;
+    background-color: cyan;
+    width: 50%;
+    margin-left: 5px;
+    border-left: 1px solid black;
+}

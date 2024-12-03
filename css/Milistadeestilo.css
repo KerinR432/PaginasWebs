@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+
+}
+
+h1 {
+    background-color: pink;
+}
+.primero {
+    background-color: cyan;
+    width: 500px;
+    padding: 20px 50px;
+    margin: 50px;
+    border: .1rem dashed blue;
+    float: left;
+    
+}
+.segundo {
+    background-color: yellow;
+    width: 500px;
+    float: left;
+    margin: 50px;
+}
+.tercera{
+    width: 500px;
+    background-color: red;
+    clear: both;
+    margin: 50px;
+}
+
+
+@media (400px <= width <= 650px) {
+  
+    .primero {
+        width: 300px;
+        padding: 10px 30px;
+    }
+    .segundo {
+        width: 220px;
+
+    }
+}

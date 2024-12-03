@@ -1,0 +1,23 @@
+body{
+    background-color: lightgray;
+    padding: 10px 100px;
+}
+h1, h2{
+    text-align: center;
+    font-weight: normal;
+}
+p{
+    text-align: justify;
+    text-indent: 3em;
+}
+h1+h2{
+     text-decoration: underline;
+}
+h2+h2{
+    font-variant: small-caps;
+}
+h2+p::first-letter{
+    font-size: 4em;
+    font-weight: bold;
+    line-height: .8;
+}

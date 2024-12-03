@@ -1,0 +1,50 @@
+/*esto es para todo*/
+* {
+    box-shadow: none;
+    padding: 0;
+    margin: 0;
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto
+    
+}
+/*Esto es para el parrafo*/
+h1{
+    font-family: Arial, "liberation sans", helvetica, Sans-serif;
+    text-align: right;
+    
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    font-size: 80%;
+    line-height: 4rem;
+    letter-spacing: .4rem;
+    word-spacing: 1rem;
+    text-indent: 4rem;
+    
+}
+div{
+    text-align: center;
+    
+}
+img{
+    width: 30rem;
+    vertical-align: middle;
+}
+/*Esto es para las negritas*/
+b,blockquote {
+    color: green;
+}
+blockquote b{
+    color: red;
+}
+.emphatis{
+    color: aquamarine;
+    background-color: red;
+}
+#Azul{
+    color: rgb(100%, 0%, 0%);
+}
+#Azul2{
+    color: black;
+}

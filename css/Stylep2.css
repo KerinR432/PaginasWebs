@@ -1,0 +1,142 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(181, 181, 181);
+}
+h1 h2 h3 h4 p a{
+    font-size: 3.5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* esto es la cabecera */
+
+.hearth-aburrido{
+    /* display: block; */
+
+}
+.cab-aburrido{
+    display: flex;
+    background-color: rgb(19, 152, 213);
+    width: 100%;
+    
+}
+.nav-aburrido{
+    display: flex;
+    width: 100%;
+}
+.list-aburrido{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-decoration: none;
+    text-align: center;
+    list-style: none;
+    align-content: space-between;
+}
+ul{
+   width: 100%; 
+   height: 65%;
+}
+li{
+    width: 100%;
+    height: 100%;
+    font-size: 1rem;
+    padding: .1rem;
+    margin: .2rem;    
+}
+.list-a-aburrido{
+    text-decoration: none;
+    color: black;
+}
+.list-a-aburrido:hover{
+    color: red;
+    
+}
+li:hover{
+    background-color: yellow;
+}
+
+/* CUERPO  */
+ 
+.aburrido{
+    display: flex;
+    padding-top: 1.5rem;
+}
+
+.container-aburrido{
+    display: block;
+    width: 30%;
+    margin: 1px;
+    margin-right: 1rem;
+}
+.aside-aburrido{
+    display: block;
+    border: solid black 3px;
+    width: 100%;
+    box-shadow: .2rem  .7rem .8rem .5rem;
+    
+}
+.title-aside{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+
+}
+.paf-aside{
+    font-size: 1.1rem;
+    color: black;
+    text-align: justify;
+    margin: 1rem;
+}
+
+/* CUERPO CARTA O CONTENIDO */
+.cart-aburrido h2{
+    color: aliceblue;
+    text-shadow: rgb(205, 203, 203) 1rem 1rem 1rem;
+    text-transform: uppercase;
+
+}
+
+.h2-cart-aburrido{
+    text-align: center;
+    font-size: 28px;
+}
+.h4-cart-aburrido{
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    text-shadow: black .9rem .9rem 1rem   ;
+        
+}
+.paf-cart-aburrido{
+    font-size: 20px;
+    text-align: justify;
+    margin: 1rem;
+}
+.cart-aburrido{
+    border: solid black 3px;
+    width: 70%;
+    padding: 10px;
+    margin: 1px;
+    box-shadow: .9rem  .7rem .8rem .5rem;
+
+}
+.botton-paf-cart{
+    background-color: rgb(8, 104, 183);
+    text-decoration: none;
+    color: black;
+    margin-top: .1rem;
+    padding: .5rem;
+    border-radius: 1rem;
+    margin-left: .7rem;
+
+    
+}
+.botton-paf-cart:hover{
+    background-color: rgb(15, 146, 253);
+    animation-duration: 5s;
+    transition: .4s;
+    box-shadow: .2rem .7rem 1rem ;
+}
