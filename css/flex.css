@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+main{
+    border: 1px solid red;
+    display: flex;
+    flex-flow: row-reverse;
+    column-gap: 20px; /*para crear margenes en las columnas*/
+    justify-content: space-evenly;
+}
+.caja{
+    background-color: pink;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+div:nth-last-of-type(1){
+    height: 200px;
+}
+div:nth-last-of-type(2){
+    height: 75px;
+}
+div:nth-last-of-type(3){
+    height: 300px;
+}
+div:nth-last-of-type(4){
+    height: 150px;
+}
