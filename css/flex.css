@@ -9,6 +9,7 @@ main{
     flex-flow: row-reverse;
     column-gap: 20px; /*para crear margenes en las columnas*/
     justify-content: space-evenly;
+    align-items: center;
 }
 .caja{
     background-color: pink;
