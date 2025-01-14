@@ -6,25 +6,55 @@
 main{
     border: 1px solid red;
     display: flex;
-    flex-flow: row-reverse;
+    flex-flow: row;
     column-gap: 20px; /*para crear margenes en las columnas*/
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
 .caja{
     background-color: pink;
     border: 2px solid black;
     border-radius: 10px;
+    flex-basis: 200px;
 }
-div:nth-last-of-type(1){
+div:nth-of-type(1){
     height: 200px;
+    flex-grow: 0;
+    order: 2;
 }
-div:nth-last-of-type(2){
+div:nth-of-type(2){
     height: 75px;
+    flex-grow: 2;
+    align-self: flex-end;
+    order: 100;
 }
-div:nth-last-of-type(3){
+div:nth-of-type(3){
     height: 300px;
+    flex-grow: 1;
+    order: -1;
 }
-div:nth-last-of-type(4){
+div:nth-of-type(4){
     height: 150px;
+    flex-grow: 3;
+    align-self: start;
+    order: 4;
+}
+@media(max-width: 800px) {
+    main{
+        flex-flow: row;
+        
+    }
+    .caja{
+        background-color: cyan;
+        
+    }
+}
+@media (max-width:600px) {
+    main{
+        flex-direction: column;
+    }
+    .caja{
+        background-color: yellow;
+
+    }
 }

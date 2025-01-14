@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+#cajaMadre{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+.caja1{
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: rgb(156, 156, 156);
+    padding: 28px;
+    box-shadow: 3px 5px 10px 2px;
+}
+.caja2{
+    display: flex;
+    flex-flow: row nowrap;
+    border-radius: 25px;
+    
+}
+.izq{
+    flex-basis: 25%;
+    border: 1px solid grey;
+    margin: 10px;
+    background-color: rgb(204, 201, 201);
+    border-radius: 10px;
+    box-shadow: 3px 5px 10px 2px;
+
+
+}
+.cent{
+    flex-basis: 50%;
+    border: 1px solid grey;
+    padding: 20px;
+    margin: 10px;
+    background-color: gray;
+    border-radius: 10px;
+    box-shadow: 3px 5px 10px 2px;
+}
+.der{
+    flex-basis: 25%;
+    border: 1px solid grey;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(204, 201, 201);
+    border-radius: 10px;
+    box-shadow: 3px 5px 10px 2px;
+
+
+}
+.caja3{
+    background-color: gray;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 24px;
+    box-shadow: 3px 5px 10px 2px;
+}
+h1{
+    color: white;
+    -webkit-text-stroke: 1px rgb(59, 57, 57);
+}
+h2{
+    padding: 30px 20px 30px 30px;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+h4{
+    color: white;
+}
+p{
+    margin: 16px;
+}
