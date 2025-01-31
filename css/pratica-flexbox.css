@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(21, 16, 83);
+}
+#cabecera{
+    background-color: rgb(211, 60, 60);
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+}
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.caja1{
+    width: 100%;
+    margin-top: 15%;
+    color: white;
+    text-align: center;
+    padding: 4%;
+    
+}
+.caja2{
+    margin: 10%;
+    padding: 10%;
+    background-color: rgb(30, 67, 136);
+    border-radius: 15px;
+    box-shadow: .1rem .1rem 1rem .1rem;
+    
+}
+.caja3{
+    margin: 10%;
+    padding: 10%;
+    background-color: rgb(30, 67, 136);
+    border-radius: 15px;
+    box-shadow: .1rem .1rem 1rem .1rem;
+    
+}
+.caja4{
+    margin: 10%;
+    padding: 10%;
+    background-color: rgb(30, 67, 136);
+    border-radius: 15px;
+    box-shadow: .1rem .1rem 1rem .1rem;
+    
+}
+/*letras*/
+h3{
+    font-size: 1.5rem;
+    color: red;
+    padding-bottom: 7%;
+    text-align: center;
+    font-weight: 800;
+}
+h2{
+    font-size: 1.7em;
+    padding-bottom: 5%;
+}
+p{
+    color: white;
+    text-align: center;
+    padding-bottom: 7%;
+}
+button{
+    background-color: rgb(211, 60, 60);
+    padding: 5%;
+    width: 100%;
+    border-radius: 15px;
+    color: white;
+    border: none;
+}
