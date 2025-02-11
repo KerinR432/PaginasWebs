@@ -30,7 +30,33 @@ else {
     document.write("No lo he econtrado!");
 }
 */
-for (i = 0; i < 10; i++) {
+for (i = 0, j = 20; i < 10; i++, j--) {
     document.write(i);
     document.write("<br/>")
 }
+//los Strings
+let texto = "Hola Mundo Cruel";//declarar un string
+let final = " ";//declarar un string vacia
+let texto2 = ["H", "o", "l", "a"];
+for (i = 0; i < texto.length; i++) {
+    if (texto[i] != " ") {
+        final += texto[i];//podemos llenar un String nuevo que este vacio
+    }
+}
+texto = final;
+document.write(texto + "<br/>");
+
+document.write("<hr>");
+for (i = 0; i < texto.length; ++i) {
+    document.write(texto[i] + "<br/>");//recorrer un string y mostrarlo
+}
+texto[5] = "x";//no se puede modificar un string
+document.write("<hr>");
+document.write(texto[5]);//mostramos el string pero solo en la posición 5
+document.write("<hr>");
+document.write(texto.charAt(1));//mostramos el string pero solo en la posición 1
+/*document.write(texto.shift());//no se puede hacer un shift a un string, porque los Strings son inmutables
+document.write(texto);*/
+document.write(texto.toLocaleUpperCase() + "<br/>");//pasar a mayúsculas
+document.write(texto.toLocaleLowerCase() + "<br/>");//pasar a minúsculas
+
