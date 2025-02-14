@@ -60,12 +60,21 @@ document.write(texto);*/
 document.write(texto.toLocaleUpperCase() + "<br/>");//pasar a mayúsculas
 document.write(texto.toLocaleLowerCase() + "<br/>");//pasar a minúsculas
 
-precio = prompt("Dame el importe sin IVA");
+/*precio = prompt("Dame el importe sin IVA");
 pvp = parseFloat(precio) * 1.21;//convierte el numero entero o decimal lo que sea a un numero decimal
 pvpmalo = parseInt(precio) * 1.21;//convierte el numero entero o decimal lo que sea a un numero entero
-pvpnumero=Number(precio)*1.21;
-document.write("El PVP es de : "+pvp.toString());//poder contatenar numeros con texto
-document.write("<br/> el PVP malo Calculado es: "+pvpmalo.toString());
-document.write("<br/> el PVP redondeado: "+pvp.toFixed(1));//esto redondea el numero a la cantidad que pasemos por parametro
+pvpnumero = Number(precio) * 1.21;
+document.write("El PVP es de : " + pvp.toString());//poder contatenar numeros con texto
+document.write("<br/> el PVP malo Calculado es: " + pvpmalo.toString());
+document.write("<br/> el PVP redondeado: " + pvp.toFixed(1));//esto redondea el numero a la cantidad que pasemos por parametro
+*/
+numero = "3.4";
 
+n = Number(numero)
+if (isNaN(n) == true) {//ayuda a poder comprobar si es numero o no y nos aydua a poder mostrar nombre.
+    document.write("No es un numero");
+}
+else {
+    document.write(n);
+}
 
