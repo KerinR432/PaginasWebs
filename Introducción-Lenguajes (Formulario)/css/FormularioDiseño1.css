@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.caja{
+    display: flex;
+    justify-content: center;
+
+}
+form{
+    background-color: rgb(171, 239, 239);
+    padding: 30px 90px;
+    border-radius: 10px;
+    margin-top: 30px;
+    border: 1px solid black;
+}
+#email{
+    border: solid 1px black;
+    border-radius: 10px;
+    width: 100%;
+    height: 25px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+#contraseña{
+    border: solid 1px black;
+    border-radius: 10px;
+    width: 100%;
+    height: 25px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+#login{
+    padding: 10px;
+    width: 40%;
+    border: solid 1px black;
+    border-radius: 10px;
+    background-color: chartreuse;
+}
+#limpiar{
+    margin: 10px;
+    padding: 10px;
+    width: 40%;
+    border: solid 1px black;
+    border-radius: 10px;
+    background-color: yellow;
+}

@@ -1,0 +1,124 @@
+@media screen and (min-width: 1500px) and (max-width: 2040px) {
+    
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    h1{
+        text-align: center;
+        color: gray;
+
+    }
+    form{
+        margin: 0 auto;
+        border: 1px solid black;
+        border-radius: 10px;
+        width: 90%;
+        padding: 10px;
+    }
+    label{
+        color: gray;
+        padding: 10px;
+    }
+    #name{
+        margin: 5px;
+        padding: 4px;
+        width: 95%;
+        border-radius: 10px;
+    }
+    #subname{
+        margin: 5px;
+        padding: 4px;
+        width: 95%;
+        border-radius: 10px;
+    }
+    #email{
+        margin: 5px;
+        padding: 4px;
+        width: 96%;
+        border-radius: 10px;
+    }
+    #sex{
+        margin: 5px;
+        padding: 4px;
+        width: 96%;
+        border-radius: 10px;
+    }
+    #date{
+        margin: 5px;
+        padding: 4px;
+        width: 95%;
+        border-radius: 10px;
+    }
+    button{
+        color: white;
+        background-color: rgb(53, 173, 53);
+        width: 95%;
+        margin:10px;
+        padding: 4px;
+        border-radius: 10px;
+    }
+}
+@media screen and (min-width: 200px) and (max-width: 450px) {
+    
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    h1{
+        text-align: center;
+        color: gray;
+
+    }
+    form{
+        margin: 0 auto;
+        border: 1px solid black;
+        border-radius: 10px;
+        width: 90%;
+        padding: 10px;
+    }
+    label{
+        color: gray;
+        padding: 10px;
+    }
+    #name{
+        margin: 5px;
+        padding: 4px;
+        width: 90%;
+        border-radius: 10px;
+    }
+    #subname{
+        margin: 5px;
+        padding: 4px;
+        width: 90%;
+        border-radius: 10px;
+    }
+    #email{
+        margin: 5px;
+        padding: 4px;
+        width: 90%;
+        border-radius: 10px;
+    }
+    #sex{
+        margin: 5px;
+        padding: 4px;
+        width: 90%;
+        border-radius: 10px;
+    }
+    #date{
+        margin: 5px;
+        padding: 4px;
+        width: 90%;
+        border-radius: 10px;
+    }
+    button{
+        color: white;
+        background-color: rgb(53, 173, 53);
+        width: 89%;
+        margin:10px;
+        padding: 4px;
+        border-radius: 10px;
+    }
+}

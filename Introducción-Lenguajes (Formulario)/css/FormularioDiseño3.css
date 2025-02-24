@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    color: gray;
+    text-align: center; 
+    margin: 10px 10px 100px 10px;
+}
+form{
+    margin: 0 auto;
+    width: 80%;
+    border: 1px solid gray;
+    background-color: rgb(234, 228, 228);
+}
+label{
+    padding: 50px;
+}
+#name{
+    margin: 30px;
+    width: 70%;
+    border:none;
+    border-bottom: 1px solid gray;
+    background-color: rgb(234, 228, 228);
+}
+#email{
+    width: 70%;
+    border:none;
+    border-bottom: 1px solid gray;
+    background-color: rgb(234, 228, 228);
+}
+#phone{
+    width: 70%;
+    border:none;
+    border-bottom: 1px solid gray;
+    background-color: rgb(234, 228, 228);
+}
+ #eleccion{
+    width: 70%;
+    border:none;
+    border-bottom: 1px solid gray;
+    background-color: rgb(234, 228, 228);
+ }
