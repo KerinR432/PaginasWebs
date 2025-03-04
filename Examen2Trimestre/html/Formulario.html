@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/Formualrio.css" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <h1></h1>
+    <form action="registrar.html" method="post">
+      <fieldset>
+        <legend>Contactos</legend>
+        <label for="name">Nombre Completo:</label>
+        <input
+        size="50"
+          placeholder="Fedirico Garcia"
+          required
+          maxlength="40"
+          type="text"
+          name="name"
+          id="name_" />
+        <label for="nameEquip">Nombre del Equipo:</label>
+        <input
+        size="50"
+          placeholder="Chivas"
+          type="text"
+          name="nameEquip"
+          id="nameEquip_" />
+        <label for="numbPar">Numero de Participante:</label>
+        <input
+          value="1"
+          step="1"
+          min="1"
+          max="5"
+          type="number"
+          name="numbPar"
+          id="numberPar_" /> <br>
+        <label for="email">Correo Electronico:</label>
+        <input
+        size="50"
+          placeholder="Ejemplo@gmail.com"
+          type="email"
+          name="email"
+          id="email_" />
+        <label for="Phone">Teléfono de contacto</label>
+        <input
+        size="50"
+          placeholder="666-12-12-12"
+          pattern="[6,7,9]{1}[0-9]{8}"
+          required
+          type="tel"
+          name="Phone"
+          id="phone_" />
+      </fieldset>
+      <fieldset>
+        <legend>Fecha y hora de cita</legend>
+        <label for="date">Fecha y hora de asitencia</label>
+        <input type="date" name="date" id="date_" />
+      </fieldset>
+      <fieldset>
+        <legend>mas datos</legend>
+        <label for="color">Color Favorito</label>
+        <input value="#c0ffee" type="color" name="color" id="color_" /><br>
+        <label for="observation">Observaciones</label><br>
+        <textarea
+        
+        rows="10"
+        cols="40"
+          placeholder="Este establecimiento esta bien por..."
+          name="observation"
+          id="observation_"></textarea>
+      </fieldset>
+      <input id="botton" type="submit" value="Enviar Formulario" />
+    </form>
+  </body>
+</html>

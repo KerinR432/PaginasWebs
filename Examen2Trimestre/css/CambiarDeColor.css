@@ -1,0 +1,19 @@
+.blanco{
+    background-color: white;
+    color: black;
+}
+.cambiarColorAzul,h1{
+    background-color: yellow;
+    color: blue;
+}
+body{
+    display: flex;
+}
+div{
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    flex-direction: column;
+    margin: 10px;
+}
