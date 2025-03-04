@@ -24,7 +24,7 @@ Caja1 = document.getElementById("izquierda");
 Caja2 = document.getElementById("derecha");
 
 Caja1.addEventListener("mouseover", cambiar);
-caja1.addEventListener("mouseout", cambiarNormal);
+Caja1.addEventListener("mouseout", cambiarNormal);
 Caja2.addEventListener("mouseover", cambiar);
 Caja2.addEventListener("mouseout", cambiarNormal);
 
