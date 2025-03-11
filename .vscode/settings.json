@@ -1,3 +1,5 @@
 {
-  "liveServer.settings.multiRootWorkspaceName": "P-1 LgMarhtml"
+  "liveServer.settings.multiRootWorkspaceName": "P-1 LgMarhtml",
+  "vscode-pets.theme": "winter",
+  "vscode-pets.throwBallWithMouse": true
 }

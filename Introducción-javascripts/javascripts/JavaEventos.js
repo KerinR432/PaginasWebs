@@ -20,7 +20,7 @@
 //     }
 // }
 //¡CREAR EVENTOS SIN TOCAR EL HTML!
-Caja1 = document.getElementById("izquierda");
+/* Caja1 = document.getElementById("izquierda");
 Caja2 = document.getElementById("derecha");
 
 Caja1.addEventListener("mouseover", cambiar);
@@ -40,7 +40,7 @@ function cambiarNormal() {
     Caja2.className = "cajaNormal";
     Caja1.innerHTML = "<h2>caja 1</h2>";
     Caja2.innerHTML = "<h2>caja 2</h2>";
-}
+} */
 
 //¡SUSCRIBIR ELEMENTOS
 // Caja1 = document.getElementById("izquierda");
@@ -64,3 +64,38 @@ function cambiarNormal() {
 //     Caja1.style.backgroundColor='white';
 //     Caja2.style.backgroundColor='white';
 // }
+
+//MAS FORMAS DE CAMBIAR
+/* Caja1 = document.getElementById("izquierda");
+Caja2 = document.getElementById("derecha");
+
+Caja1.addEventListener("click", mifuncion);
+Caja1.addEventListener("mouseout", cambiarNormal);
+Caja2.addEventListener("click", mifuncion);
+Caja2.addEventListener("mouseout", cambiarNormal);
+
+function mifuncion() {
+    alto = window.innerHeight;
+    ancho = window.innerWidth;
+    //mostrar.
+    parrafo.innerHTML=("Ancho: "+ancho+" Alto: "+alto);
+    document.title = ("Ancho: "+ancho+" Alto: "+alto);
+    window.location.href = "htttp://www.google.com";
+}
+ */
+
+//CREAR ELEMENTOS
+Caja1 = document.getElementById("izquierda");
+Caja2 = document.getElementById("derecha");
+
+Caja1.addEventListener("click", mifuncion);
+Caja1.addEventListener("mouseout", cambiarNormal);
+Caja2.addEventListener("click", mifuncion);
+Caja2.addEventListener("mouseout", cambiarNormal);
+
+function mifuncion() {
+    elemento = document.createElement("h2");
+    document.body.appendChild(elemento);
+    elemento.innerHTML = "Nuevo Titular del tipo : 'h2'"
+
+}

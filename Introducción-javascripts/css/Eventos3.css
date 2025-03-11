@@ -18,3 +18,7 @@
     float: left;
     text-align: center;
     }
+
+    #parrafo{
+        display: block;
+    }
