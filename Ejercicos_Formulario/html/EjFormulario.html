@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Formulario</title>
+</head>
+<body>
+    <h1>Formularios Ejercicios</h1>
+    <script src="../js/Ej_Formulario.js"></script>
+    <form action="./enviado.html" onsubmit= "return validar1(this)">
+        
+        <label for="Nombre">Nombre de usuario</label><br>
+        <input type="text" name="nombre" id="Nombre"><br>
+        <label for="Contraseña">Contraeña</label><br>
+        <input type="password" name="pass1" id="Contraseña"><br>
+        <label for="Contraseña2">Repite la contraseña</label><br>
+        <input type="password" name="pass2" id="Contraseña2"><br><br>
+        <input type="submit" name="sub" value="Enviar">
+        <input type="reset" name="res" value="Limpiar">
+
+
+
+    </form>
+</body>
+</html>

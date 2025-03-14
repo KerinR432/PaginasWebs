@@ -22,4 +22,5 @@ Este repositorio contiene diversos proyectos y ejercicios relacionados con el de
 Abre los archivos HTML en tu navegador para ver las páginas web. Puedes editar los archivos HTML, CSS, y JavaScript para experimentar y hacer cambios
 
 ##Notas
+
 POSTDATA: Freddy, si tomas algo de aquí, pasa programación.
