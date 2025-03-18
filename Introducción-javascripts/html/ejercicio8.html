@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="../html/segunda.html">
+
+        <label for="comentario">Comentarios (maximo 140 caracteres)</label><br>
+        <textarea name="comentarios" id="commet" onkeyup="contador(this)" placeholder="Escribe aqui tu comentario..." maxlength="140" rows="8"></textarea><br>
+        <label for="real">Escritos</label>
+        <input type="text" name="real" id="real" size="3" disabled="true">
+        <label for="limite">Restantes: </label>
+        <input type="text" name="limite" id="lit" value="140" size="3" disabled="true"><br><br>
+
+        <input type="checkbox" name="condicones" onclick="validar(this)" id="check">Acepto las condiciones<br>
+        <input type="submit" name="Envio" value="Enviar" disabled = "true">
+        <input type="reset" value="Limpiar">
+
+    </form>
+    <script src="../javascripts/ejercicio8.js"></script>
+</body>
+</html>

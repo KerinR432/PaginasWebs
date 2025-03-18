@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios</title>
+  </head>
+  <body>
+    <h1>Formulario Javascripts</h1>
+    <script src="../javascripts/EventosFocus.js"></script>
+    <form action="segunda.html"
+    onreset="return confirm('¿De verdad quieres limpiar el formualario?')" <--! sirve para que salte una ventana y que confirmemos -->   
+      <label for="nombre"> Nombre:
+        <input type="text" name="nombre" id="Nombre" onkeydown="validar2(this)"/>
+      </label><br>
+      <label for="Contraseña"> Contraseña: 
+        <input type="password" name="contra" id="Contraseña" />
+      </label>
+      <br>
+      <label for="Contraseña"> Repite Contraseña: 
+        <input type="password" name="contra1" id="Contraseña" />
+      </label>
+      <br /><br>
+      <input type="submit" name="botonenviar" value="Enviar" />
+      <input type="reset" name="botonlimpiar" value="Restablecer" />
+      <input type="button" name="boton"  value="Validar">
+    </form>
+  </body>
+</html>
