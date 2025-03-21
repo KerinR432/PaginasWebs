@@ -5,15 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+<body onload="iniciar()">
     <form action="" >
     <h1>Ejercicio de Javascripts</h1>
     <p>Un jeugo donde tienes que adivinar el numero, yo te dire si te has pasado o no, vamos a ver tu habilidad de encontrar numeros</p>
     <label for="numero">Introduce tu número</label><br>
-    <input type="number" name="numero" size="2" id="" onkeyup="adivinar(this)">
-    <input type="button" value="jugar">
-    <span id="resultado" hidden = "true">tu resulado es:</span>
-    <span id="intentos" hidden = "true"> tus intentos es: </span>
+    <input type="number" name="numero" size="2" id="" min="0" max="50" onkeyup="adivinar(this)">
+    <input type="button" value="jugar" min onclick="jugar(this)">
+    <span id="resultado">tu resulado es:</span>
+    <span id="intentos"> tus intentos es: </span>
+    <script src="../javascripts/numeroAletorio.js"></script>
 </form>
 </body>
 </html>

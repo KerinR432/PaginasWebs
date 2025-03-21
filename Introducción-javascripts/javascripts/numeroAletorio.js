@@ -1,17 +1,19 @@
-function adivinar(numeros) {
-    n = numeros.value;
-  var numerAleatorio = Math.floor(Math.random() * 50) + 1;
-
-  while (n != numerAleatorio) {
-    if (n > numerAleatorio) {
-      alert("El numero es menor");
-    }
-    if (n < numerAleatorio) {
-      alert("El numero es mayor");
-    }
-    if (n == numerAleatorio) {
-      alert("Felicidades, adivinaste el numero");
-      numeros.form.resultado = false;
-    }
+function iniciar() {
+  intentos.innerHTML = 0;
+  resultado.innerHTML = Math.floor(Math.random() * 50);
+}
+function jugar(boton) {
+  numusuario = boton.form.numero.value;
+  veces = parseInt (intentos.innerHTML);
+  azar = parseInt(resultado.innerHTML);
+  veces++;
+  intentos.innerHTML = veces;
+  if(azar > numusuario) {
+    alert("te has quedo corto");
+  } else if (azar < numusuario) {
+    alert("te has pasado tio");
+  } else {
+    alert("Bravo. Lo has conseguido tio! tus numeros de intentos son: " + veces);
+    boton.disabled = true;
   }
 }
