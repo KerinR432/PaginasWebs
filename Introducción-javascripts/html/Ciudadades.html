@@ -10,7 +10,7 @@
         <fieldset>
             <legend>¡ELIGE EL CONTINENTE QUE MAS TE GUSTE!</legend>
             <label for="continente">Continente</label><br>
-            <select name="continente" id="continente" size="1">
+            <select onclick="eleccion(this)" name="continente" id="continente" size="5">
             <option value="Europa">Europa</option>
             <option value="America">America</option>
             <option value="Asia">Asia</option>
@@ -21,10 +21,27 @@
         <fieldset>
             <legend>¡MUY BIEN BUEN DESTINO, AHORA ELIGE LA CIUDAD DE ESE CONTIENENTE!</legend>
             <label for="ciudad">Ciudades</label><br>
-            <input type="radio" name="España" id="España">Madrid
-            <input type="radio" name="España" id="España">Tokyo <br>
-            <input type="radio" name="España" id="España">Nueva York
+            <select  name="Ciudades" id="">
+            <input type="radio" name="es" id="España">Madrid
+            <input type="radio" name="ing" id="España">Londres
+            <input type="radio" name="al" id="España">Berlin <br><br>
+            <input type="radio" name="EEUU" id="España">New York
+            <input type="radio" name="arg" id="España">Buenos Aires
+            <input type="radio" name="can" id="España">Ottawa <br><br>
+            <input type="radio" name="jap" id="España">Tokio
+            <input type="radio" name="ch" id="España">Pekin
+            <input type="radio" name="Tah" id="España">Bangkok <br><br>
+            <input type="radio" name="Mar" id="España">Marrakech
+            <input type="radio" name="sbAf" id="España"> Ciudad del Cabo
+            <input type="radio" name="egt" id="España">El Cairo <br><br>
+            <input type="radio" name="Aus" id="España">Sídney
+            <input type="radio" name="Nz" id="España">Wellington
+            <input type="radio" name="Pgn" id="España">Port Moresby
+          </select>
+
+
         </fieldset>
     </form>
+    <script src="../javascripts/Ciudadades.js"></script>
   </body>
 </html>
