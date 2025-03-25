@@ -10,7 +10,7 @@
         <fieldset>
             <legend>¡ELIGE EL CONTINENTE QUE MAS TE GUSTE!</legend>
             <label for="continente">Continente</label><br>
-            <select onclick="eleccion(this)" name="continente" id="continente" size="5">
+            <select onchange="cambiarContinene(this)" name="continente" id="continente" size="1">
             <option value="Europa">Europa</option>
             <option value="America">America</option>
             <option value="Asia">Asia</option>
@@ -21,23 +21,21 @@
         <fieldset>
             <legend>¡MUY BIEN BUEN DESTINO, AHORA ELIGE LA CIUDAD DE ESE CONTIENENTE!</legend>
             <label for="ciudad">Ciudades</label><br>
-            <select  name="Ciudades" id="">
-            <input type="radio" name="es" id="España">Madrid
-            <input type="radio" name="ing" id="España">Londres
-            <input type="radio" name="al" id="España">Berlin <br><br>
-            <input type="radio" name="EEUU" id="España">New York
-            <input type="radio" name="arg" id="España">Buenos Aires
-            <input type="radio" name="can" id="España">Ottawa <br><br>
-            <input type="radio" name="jap" id="España">Tokio
-            <input type="radio" name="ch" id="España">Pekin
-            <input type="radio" name="Tah" id="España">Bangkok <br><br>
-            <input type="radio" name="Mar" id="España">Marrakech
-            <input type="radio" name="sbAf" id="España"> Ciudad del Cabo
-            <input type="radio" name="egt" id="España">El Cairo <br><br>
-            <input type="radio" name="Aus" id="España">Sídney
-            <input type="radio" name="Nz" id="España">Wellington
-            <input type="radio" name="Pgn" id="España">Port Moresby
-          </select>
+            <input type="radio" name="Ciudad" id="Madrid">Madrid
+            <input type="radio" name="Ciudad" id="Londres">Londres
+            <input type="radio" name="Ciudad" id="Berlin">Berlin <br><br>
+            <input type="radio" name="Ciudad" id="New York" disabled="true">New York
+            <input type="radio" name="Ciudad" id="Buenos Aires" disabled>Buenos Aires
+            <input type="radio" name="Ciudad" id="Ottawa" disabled>Ottawa <br><br>
+            <input type="radio" name="Ciudad" id="Tokio" disabled>Tokio
+            <input type="radio" name="Ciudad" id="Pekin" disabled>Pekin
+            <input type="radio" name="Ciudad" id="Bangkok" disabled>Bangkok <br><br>
+            <input type="radio" name="Ciudad" id="Marrakech" disabled>Marrakech
+            <input type="radio" name="Ciudad" id="Ciudad_del_Cabo" disabled> Ciudad del Cabo
+            <input type="radio" name="Ciudad" id="El_Cairo" disabled>El Cairo <br><br>
+            <input type="radio" name="Ciudad" id="Sídney" disabled>Sídney
+            <input type="radio" name="Ciudad" id="Wellington" disabled>Wellington
+            <input type="radio" name="Ciudad" id="Port Moresby" disabled>Port Moresby
 
 
         </fieldset>
