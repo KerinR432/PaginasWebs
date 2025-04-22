@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<agenda>
+	<persona>
+		<nombre>Ana</nombre>
+		<apellido>Garcia</apellido>
+        <telefono>321323123</telefono>
+        <telefono>854539857</telefono>
+	</persona>
+	<persona>
+	</persona>
+	<persona>
+	</persona>
+</agenda>
