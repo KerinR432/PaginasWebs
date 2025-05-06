@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE agenda SYSTEM "agenda.dtd">
 <agenda>
-	<persona>
+	<persona sexo="mujer" profesion="funcionaria">
 		<nombre>Ana</nombre>
 		<apellido>Garcia</apellido>
-        <telefono>321323123</telefono>
-        <telefono>854539857</telefono>
+        <movil compañia="vodafone" tipo="prepago" >321323123</movil>
+        <fijo>854539857</fijo>
+	</persona>
+	<persona profesion="personal de compañia" sexo="varon">
+		<nombre>Freddy</nombre>
+		<apellido>Bernabue</apellido>
+        <fijo>499348382</fijo>
 	</persona>
 	<persona>
-	</persona>
-	<persona>
+		<nombre>Mark</nombre>
+		<apellido>Ruiz</apellido>
+		<jubilado/>
 	</persona>
 </agenda>

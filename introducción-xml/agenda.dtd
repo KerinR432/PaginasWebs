@@ -1,0 +1,22 @@
+<!ELEMENT agenda (persona+)>
+<!ELEMENT persona (nombre,apellido,apellido?,(movil|fijo)*,jubilado?)>
+<!ELEMENT nombre (#PCDATA)>  <!-- es #PCDATA para aquello que su almacenamineto acaba-->
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT movil (#PCDATA)>
+<!ELEMENT fijo (#PCDATA)>
+<!ELEMENT jubilado EMPTY> <!-- ELEMENTO VACIO-->
+
+<!ATTLIST persona 
+sexo (varon|mujer|otro|nscn) "nscn" 
+profesion CDATA #IMPLIED
+> <!-- DEFINIMOS UN ATTLIST PARA LOS ELEMENTOS QUE TENGA MAS DE UN ATRIBUTO, PERO SOLO ELLOOS!!!!-->
+<!-- REQUIRED="Obligatorio" IMPLIED="No obligatorio" FIXED="Un valor siempre fijo"-->
+<!ATTLIST movil 
+compañia CDATA #FIXED "vodafone"
+tipo (contrato|prepago) #REQUIRED 
+>
+<!-- EMPTY es para un elemento que no tenga contenido-->
+<!-- ?= 0 ó 1, * = 0 ó n , += 1 ó n-->
+<!-- ID = valor unico de tipo identifiacador, IDREF = el valor de ese atributo es un elemento ID que aparezca en otro sitio en el mismo elemento-->
+<!-- IDREFS = Es una lista de referencias unicas que debe aprecer en xml-->

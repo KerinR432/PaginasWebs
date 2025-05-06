@@ -1,0 +1,11 @@
+<!ELEMENT autor1 (autor+)>
+<!ELEMENT autor (titulo,capitulo+)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT capitulo (#PCDATA)>
+<!ATTLIST capitulo 
+numero CDATA "anónimo"
+>
+
+<!ATTLIST autor 
+libro CDATA #REQUIRED
+>
