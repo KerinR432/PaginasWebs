@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE alumnos SYSTEM "alumnos1.dtd">
+<alumnos>
+    <alumno matricula="M1">
+        <nb>Carmen</nb>
+        <ap1>Perez</ap1>
+        <ap2>Penna</ap2>
+        <telefono>666666666</telefono>
+    </alumno>
+    <alumno>
+        <nb>Antonio</nb>
+        <ap1>Penna</ap1>
+        <ap2>Pepito</ap2>
+    </alumno>
+    <alumno>
+        <nb>Pepe</nb>
+        <ap1>Cordero</ap1>
+        <telefono>666333333</telefono>
+    </alumno>
+</alumnos>
