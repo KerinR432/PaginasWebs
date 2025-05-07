@@ -1,0 +1,13 @@
+.cabecera{
+    background-color: #101113;
+    padding: 20px;  
+    text-align: center;
+}
+.carousel-item img{
+    height: 850px !important;
+    object-fit: cover;
+}
+.card{
+    width: 280px;
+    height: 360px;
+}
