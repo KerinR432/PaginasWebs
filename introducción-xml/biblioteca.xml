@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<!DOCTYPE biblioteca SYSTEM "biblioteca.dtd">
+<biblioteca>
+    <libro cod = "M1">
+        <isbn>987876</isbn>
+        <titulo>el capitan greo</titulo>
+        <autor>Alicia First</autor>
+    </libro>
+    <libro cod = "M2">
+        <isbn>987875</isbn>
+        <titulo>Mi oso y yo</titulo>
+        <autor>Pepe Pótamo</autor>
+    </libro>
+    <usuario matricula="L878">
+        <nombre>Antonio</nombre>
+        <apellido>Penna</apellido>
+    </usuario>
+    <prestamo libro="M1" usuario="L878">
+        <fechaIni>03/03/2025</fechaIni>
+        <fechaFin>18/03/2025</fechaFin>
+    </prestamo>
+</biblioteca>

@@ -1,0 +1,27 @@
+<!-- Un vecino que tenga mas de un piso-->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE comunidad SYSTEM "comunidad.dtd">
+<comunidad>
+    <vecino id="1">
+        <codigo>1</codigo>
+        <nombre>Juan</nombre>
+        <apellido>Gómez</apellido>
+        <portal>4</portal>
+        <piso>2</piso>
+        <letra>a</letra>
+        <codigoDeCuenta>213</codigoDeCuenta>
+        <cargo>presidente</cargo>
+    </vecino>
+    <vecino id="2">
+        <codigo>2</codigo>
+        <nombre>Pepe</nombre>
+        <apellido>Gómez</apellido>
+        <portal>2</portal>
+        <piso>5</piso>
+        <letra>b</letra>
+        <codigoDeCuenta>123</codigoDeCuenta>
+        <cargo>Secretario</cargo>
+    </vecino>
+
+
+</comunidad>

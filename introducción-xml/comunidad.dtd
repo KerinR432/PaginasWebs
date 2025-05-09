@@ -1,0 +1,10 @@
+<!ELEMENT comunidad (vecino+)>
+<!ELEMENT vecino (codigo,nombre, apellido, portal+, piso+, letra+, codigoDeCuenta, cargo)>
+<!ELEMENT codigo (#CARDATA)>
+<!ELEMENT nombre (#CARDATA)>
+<!ELEMENT apellido (#CARDATA)>
+<!ELEMENT portal (#CARDATA)>
+<!ELEMENT piso (#CARDATA)>
+<!ELEMENT letra (#CARDATA)>
+<!ELEMENT codigoDeCuenta (#CARDATA)>
+<!ELEMENT cargo (#CARDATA)>
