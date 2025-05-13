@@ -1,10 +1,15 @@
-<!ELEMENT comunidad (vecino+)>
-<!ELEMENT vecino (codigo,nombre, apellido, portal+, piso+, letra+, codigoDeCuenta, cargo)>
-<!ELEMENT codigo (#CARDATA)>
-<!ELEMENT nombre (#CARDATA)>
-<!ELEMENT apellido (#CARDATA)>
-<!ELEMENT portal (#CARDATA)>
-<!ELEMENT piso (#CARDATA)>
-<!ELEMENT letra (#CARDATA)>
-<!ELEMENT codigoDeCuenta (#CARDATA)>
-<!ELEMENT cargo (#CARDATA)>
+<!ELEMENT comunidad (propitario+)>
+<!ELEMENT propietario (nombre,apellido,apellido?,cuenta,propiedad+,(presidente|vicepresidente|secretario|vocal)?)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT cuenta (#PCDATA)>
+<!ELEMENT propiedad EMPTY>
+<!ELEMENT presidente EMPTY>
+<!ELEMENT vicepresidente EMPTY>
+<!ELEMENT secretario EMPTY>
+<!ELEMENT vocal EMPTY>
+<!ATTLIST propietario codigo ID #REQUIRED>
+<!ATTLIST propiedad 
+    portal (5|7|9|11) #REQUIRED
+    piso (bajo|1|2|3|4) #REQUIRED
+    letra (A|B|C|D|E) #REQUIRED>

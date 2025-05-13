@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE noticias SYSTEM "Noticias.dtd">
+<noticias>
+    <noticia dia = "22" mes="10" anyo="2005">
+        <titulo>Nuevo Servidor WEB</titulo>
+        <autor>Antonio Barco</autor>
+        <url direccion="">http://www.abc.es</url>
+        <texto>En los últimos días ha visto la luz un nuevo servidor
+            Web en la Comunidad Valenciana</texto>
+    </noticia>
+    <noticia dia = "12" mes="11" anyo="2005">
+        <titulo>Premio de Biologia</titulo>
+        <autor>Pilar Garcia</autor>
+        <url direccion="">http://www.abc.es</url>
+        <texto>Los alumnos del Colegio Europa ganan el premio de
+            Biología de la Comunidad Autónoma de Andalucía</texto>
+            <foto>htpp://www.abc.es/123.jpg</foto>
+    </noticia>
+</noticias>

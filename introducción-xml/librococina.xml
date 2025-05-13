@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding="UTF-8"?>
+<!DOCTYPE librococina SYSTEM "receta.dtd">
+<librococina>
+    <id receta="rec_1">Mousse de chocolate</id>
+    <id receta="rec_2">Fondue Saboyana</id>
+    <id receta="rec_3">Mousse de chocolate</id>
+    <ingredientes ref="rec_1 rec_3">Chocolate</ingredientes>
+    <ingredientes ref="rec_2">Comté</ingredientes>
+</librococina>

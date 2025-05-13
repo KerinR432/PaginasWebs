@@ -1,0 +1,5 @@
+<!ELEMENT librococina (id+,ingredientes+)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT ingredientes (#PCDATA)>
+<!ATTLIST id receta ID #REQUIRED>
+<!ATTLIST ingredientes ref IDREFS #REQUIRED>

@@ -1,0 +1,22 @@
+<!-- Un vecino que tenga mas de un piso-->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE comunidad SYSTEM "comunidad.dtd">
+<comunidad>
+    <propietario codigo="1">
+        <nombre>Juan</nombre>
+        <apellido>Gómez</apellido>
+        <apellido>Casado</apellido>
+        <cuenta>E432134213213131</cuenta>
+        <propiedad portal="9" piso="bajo" letra="A"></propiedad>
+        <presidente></presidente>
+    </propietario>
+    <propietario codigo="1">
+        <nombre>Mike</nombre>
+        <apellido>Gómez</apellido>
+        <apellido></apellido>
+        <cuenta>A432134213213131</cuenta>
+        <propiedad portal="5" piso="3" letra="A">
+        <propiedad portal="7" piso="2" letra="C">
+        <propiedad portal="7" piso="1" letra="D">
+    </propietario>
+</comunidad>
