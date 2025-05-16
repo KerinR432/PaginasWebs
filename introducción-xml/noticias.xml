@@ -8,7 +8,7 @@
         <texto>En los últimos días ha visto la luz un nuevo servidor
             Web en la Comunidad Valenciana</texto>
     </noticia>
-    <noticia dia = "12" mes="11" anyo="2005">
+    <noticia dia ="12" mes="11" anyo="2005">
         <titulo>Premio de Biologia</titulo>
         <autor>Pilar Garcia</autor>
         <url direccion="">http://www.abc.es</url>

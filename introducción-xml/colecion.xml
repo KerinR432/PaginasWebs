@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE colecion SYSTEM "Musica.dtd">
+<colecion>
+    <album>
+        <titulo>La Marsellesa</titulo>
+        <autor>Fransico</autor>
+        <año>2006</año>
+        <soporte>DVD</soporte>
+        <grabacion>Estudio</grabacion>
+    </album>
+
+
+    <album>
+        <titulo>La Marcha turca</titulo>
+        <autor>Morzat</autor>
+        <año>1780</año>
+        <soporte>BLurey</soporte>
+        <grabacion>Directo</grabacion>
+    </album>
+</colecion>

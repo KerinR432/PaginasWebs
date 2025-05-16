@@ -1,12 +1,16 @@
-<!ELEMENT noticias (noticia+,tiulo,autor+,url.texto,foto?)>
-<!ELEMENT noticia (#PCDATA)>
+<!ELEMENT noticias (noticia+)>
+<!ELEMENT noticia (titulo,autor*,url,texto,foto?)>
 <!ELEMENT titulo (#PCDATA)>
 <!ELEMENT autor (#PCDATA)>
 <!ELEMENT url (#PCDATA)>
 <!ELEMENT texto (#PCDATA)>
 <!ELEMENT foto (#PCDATA)>
 <!ATTLIST noticia 
-dia ID  #REQUIRED
-mes ID  #REQUIRED
-anyo ID #REQUIRED>
-<!ATTLIST url direccion ID #REQUIRED>
+ dia  CDATA #REQUIRED
+ mes  CDATA #REQUIRED
+ anyo CDATA #REQUIRED
+ >
+<!ATTLIST url direccion CDATA #REQUIRED
+
+
+>
