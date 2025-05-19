@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE liga SYSTEM "liga.dtd">
+<liga>
+    <partido>
+        <equipo id = "local">
+            <nombreEq>Chapitas</nombreEq>
+            <goles>
+                <cantidad>2</cantidad>
+                <nombre>Franker</nombre>
+                <nombre>Mister Palomino</nombre>
+            </goles>
+        </equipo>
+
+        <equipo id = "visitante">
+            <nombreEq>los paluminos</nombreEq>
+        </equipo>
+        <tarjeta>
+            <jugador card = "amarillo">mika</jugador>
+            <jugador card = "rojo">sasr</jugador>
+        </tarjeta>
+        <colegiado>Mikel</colegiado>
+        <juez>Marques</juez>
+        <juez>Mauricio</juez>
+    </partido>
+
+
+</liga>

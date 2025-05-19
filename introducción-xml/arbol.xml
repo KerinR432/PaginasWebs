@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE arbol SYSTEM "arbol.dtd">
+<arbol>
+    <persona>
+        <nombre>Pepe</nombre>
+        <apellido>Gonzales</apellido>
+        <apellido>Goya</apellido>
+        <esposa>Gimena Perez</esposa>
+        <hijos>Frederico</hijos>
+        <hijos>Francisco</hijos>
+        <hijos>Patrica</hijos>
+        <padres>
+            <padre>Juan</padre>
+            <madre>Maria</madre>
+        </padres>
+        <fecha_nacimiento>21-3-1989</fecha_nacimiento>
+    </persona>
+    <persona>
+        <nombre>Marsela</nombre>
+        <apellido>Galve</apellido>
+        <apellido>Higaldo</apellido>
+        <esposo>Marcos Gimenez</esposo>
+        <esposa>Sara Bentarcut</esposa>
+        <padres>
+            <padre>Carlos</padre>
+            <madre>Carlotta</madre>
+        </padres>
+        <fecha_nacimiento>21-3-1989</fecha_nacimiento>
+        <fecha_defuncion>4-12-2015</fecha_defuncion>
+    </persona>
+
+</arbol>

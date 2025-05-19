@@ -1,0 +1,12 @@
+<!ELEMENT arbol (persona*)>
+<!ELEMENT persona (nombre,apellido,apellido,esposo?,esposa?,hijos*,padres?,fecha_nacimiento,fecha_defuncion?)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT esposo (#PCDATA)>
+<!ELEMENT esposa (#PCDATA)>
+<!ELEMENT hijos (#PCDATA)>
+<!ELEMENT padres (padre?,madre?)>
+<!ELEMENT padre (#PCDATA)>
+<!ELEMENT madre (#PCDATA)>
+<!ELEMENT fecha_nacimiento (#PCDATA)>
+<!ELEMENT fecha_defuncion (#PCDATA)>

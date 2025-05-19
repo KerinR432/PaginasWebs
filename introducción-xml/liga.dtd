@@ -1,0 +1,18 @@
+<!ELEMENT liga (partido*)>
+<!ELEMENT partido (equipo*,tarjeta,colegiado,juez+)>
+<!ELEMENT equipo (nombreEq,goles?)>
+<!ELEMENT nombreEq (#PCDATA)>
+<!ELEMENT goles (cantidad,nombre*)>
+<!ELEMENT cantidad (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT tarjeta (jugador*)>
+<!ELEMENT jugador (#PCDATA)>
+<!ELEMENT colegiado (#PCDATA)>
+<!ELEMENT juez (#PCDATA)>
+<!ATTLIST equipo
+id (visitante|local) #REQUIRED  
+
+>
+<!ATTLIST jugador 
+card (amarillo|rojo) #IMPLIED
+>

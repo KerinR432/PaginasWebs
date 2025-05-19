@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE colecion SYSTEM "Musica.dtd">
+<!DOCTYPE colecion SYSTEM "colecion.dtd">
 <colecion>
-    <album>
-        <titulo>La Marsellesa</titulo>
-        <autor>Fransico</autor>
-        <año>2006</año>
-        <soporte>DVD</soporte>
-        <grabacion>Estudio</grabacion>
-    </album>
+<album>
+    <titulo>Copilotos</titulo>
+    <autor>Arde Bogota</autor>
+    <año>2023</año>
+    <soporte>Spotify</soporte>
+    <grabacion>Estudio</grabacion>
+</album>
+<album>
+    <titulo>Marcha Turca</titulo>
+    <autor>Bettoven</autor>
+    <autor>Morzart</autor>
+    <año>1760</año>
+    <soporte>Vinilo</soporte>
+    <grabacion>directo</grabacion>
+</album>
 
-
-    <album>
-        <titulo>La Marcha turca</titulo>
-        <autor>Morzat</autor>
-        <año>1780</año>
-        <soporte>BLurey</soporte>
-        <grabacion>Directo</grabacion>
-    </album>
 </colecion>
