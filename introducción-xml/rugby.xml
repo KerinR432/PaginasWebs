@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE temporadas SYSTEM "rugby.dtd">
+<temporadas anyo="2024">
+    <jornadas>
+        <partidos orden = "P1">
+        <Inglaterra es ="visitante"></Inglaterra>
+        <Francia es="local"></Francia>
+        <Irlanda es="visitante"></Irlanda>
+        <Escocia es="visitante"></Escocia>
+        <Gales es="visitante"></Gales>
+        <Italia es="visitante"></Italia>
+        <jugando>
+            <Irlanda es="visitante"></Irlanda>
+            <Francia es="local"></Francia>
+        </jugando>
+            <resultados>
+                <resultado>
+                    1 equipo local, 5 visitantes
+                    victoria visitante 55 - 10
+                </resultado>
+                <fecha>
+                    27-2-2024
+                </fecha>
+                <estadio>
+                    Aviva Stadium
+                </estadio>
+                <aforo>
+                    16000
+                </aforo>
+            </resultados>
+        </partidos>
+
+        <partidos orden = "P2">
+        <Inglaterra es ="local"></Inglaterra>
+        <Francia es="visitante"></Francia>
+        <Irlanda es="visitante"></Irlanda>
+        <Escocia es="visitante"></Escocia>
+        <Gales es="visitante"></Gales>
+        <Italia es="visitante"></Italia>
+         <jugando>
+            <Inglaterra es="local"></Inglaterra>
+            <Francia es="visitante"></Francia>
+        </jugando>
+            <resultados>
+                <resultado>
+                    1 equipo local, 1 visitantes
+                    victoria local 12-0
+                </resultado>
+                <fecha>
+                    24-2-2024
+                </fecha>
+                <estadio>
+                    Twickenham
+                </estadio>
+                <aforo>
+                    49000
+                </aforo>
+            </resultados>
+        </partidos>
+
+
+        <partidos orden = "P3">
+        <Inglaterra es ="visitante"></Inglaterra>
+        <Francia es="visitante"></Francia>
+        <Irlanda es="visitante"></Irlanda>
+        <Escocia es="visitante"></Escocia>
+        <Gales es="visitante"></Gales>
+        <Italia es="local"></Italia>
+            <desplazamiento>
+                lluvias intensas
+            </desplazamiento>
+        </partidos>       
+    </jornadas>
+</temporadas>

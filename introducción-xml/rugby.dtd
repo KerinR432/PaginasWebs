@@ -1,0 +1,32 @@
+<!ELEMENT temporadas (jornadas?)>
+<!ATTLIST temporadas
+anyo CDATA #REQUIRED>
+<!ELEMENT jornadas (partidos*)>
+<!ELEMENT Inglaterra EMPTY>
+<!ATTLIST Inglaterra
+es (local|visitante) #REQUIRED>
+<!ELEMENT Francia EMPTY>
+<!ATTLIST Francia
+es (local|visitante) #REQUIRED>
+<!ELEMENT Irlanda EMPTY>
+<!ATTLIST Irlanda
+es (local|visitante) #REQUIRED>
+<!ELEMENT Escocia EMPTY>
+<!ATTLIST Escocia
+es (local|visitante) #REQUIRED>
+<!ELEMENT Gales EMPTY>
+<!ATTLIST Gales
+es (local|visitante) #REQUIRED>
+<!ELEMENT Italia EMPTY>
+<!ATTLIST Italia
+es (local|visitante) #REQUIRED>
+<!ELEMENT partidos ((Inglaterra|Francia|Irlanda|Escocia|Gales|Italia)*,jugando?,resultados?,desplazamiento?)>
+<!ATTLIST partidos
+ orden ID #REQUIRED>
+<!ELEMENT resultados (resultado,fecha,estadio,aforo)>
+<!ELEMENT jugando ((Inglaterra|Francia|Irlanda|Escocia|Gales|Italia)*)>
+<!ELEMENT desplazamiento (#PCDATA)>
+<!ELEMENT resultado (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT estadio (#PCDATA)>
+<!ELEMENT aforo (#PCDATA)>

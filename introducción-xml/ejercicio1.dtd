@@ -1,0 +1,15 @@
+<!ELEMENT pokedex (tipos, pokemon+)>
+<!ELEMENT tipos (tipo+)>
+<!ELEMENT tipo EMPTY>
+<!ATTLIST tipo
+    id ID #REQUIRED
+    nombre CDATA #REQUIRED
+    >
+<!ELEMENT pokemon (nombre, codigo)>
+<!ATTLIST pokemon
+    id ID #REQUIRED
+    tipo IDREFS #REQUIRED
+    evolucion IDREFS #IMPLIED
+    >
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT codigo (#PCDATA)>

@@ -1,0 +1,17 @@
+<!ELEMENT biblioteca (usuarios?,libros*)>
+<!ELEMENT usuarios (usuario+)>
+<!ELEMENT usuario (nombre)>
+<!ATTLIST usuario
+id ID #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT libros (libro+)>
+<!ELEMENT libro (titulo,autor*)>
+<!ATTLIST libro
+id ID #REQUIRED
+formato (epub|pdf|mobi) #FIXED "epub"
+estado (disponible|prestado|reservado) #IMPLIED
+prestadoA  IDREF #IMPLIED
+reservadoA  IDREFS #IMPLIED 
+>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>

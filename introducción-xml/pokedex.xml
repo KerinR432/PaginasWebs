@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pokedex SYSTEM "ejercicio1.dtd">
+<pokedex>
+    <tipos>
+        <tipo id="T1" nombre="veneno"></tipo>
+        <tipo id="T2" nombre="planta"></tipo>
+        <tipo id="T3" nombre="fuego"></tipo>
+        <tipo id="T4" nombre="volador"></tipo>
+    </tipos>
+    <pokemon id="B" tipo="T1 T2"  evolucion="I">
+        <nombre>
+            Bulbasour
+        </nombre>
+        <codigo>
+            001
+        </codigo>
+    </pokemon>
+
+    <pokemon id="I" tipo="T1 T2"  evolucion="V">
+        <nombre>
+            Ivysaur
+        </nombre>
+        <codigo>
+            002
+        </codigo>
+    </pokemon>
+
+        <pokemon id="V" tipo="T1 T2">
+        <nombre>
+            Venusaur
+        </nombre>
+        <codigo>
+            003
+        </codigo>
+    </pokemon>
+
+            
+    <pokemon id="Ch" tipo="T3" evolucion="Chon">
+        <nombre>
+            Charmander
+        </nombre>
+        <codigo>
+            004
+        </codigo>
+    </pokemon>
+
+    <pokemon id="Chon" tipo="T3" evolucion="Chzar">
+        <nombre>
+            Charmeleon
+        </nombre>
+        <codigo>
+            005
+        </codigo>
+    </pokemon>
+
+    <pokemon id="Chzar" tipo="T3 T4">
+        <nombre>
+            Charizard
+        </nombre>
+        <codigo>
+            006
+        </codigo>
+    </pokemon>
+</pokedex>
